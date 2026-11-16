@@ -1,0 +1,19 @@
+
+.profil {
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profil h2 {
+  color: #1e4675;
+  margin-top: 0;
+}
+
+.profil p {
+  font-size: 16px;
+  margin: 12px 0;
+}

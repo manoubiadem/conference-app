@@ -1,0 +1,36 @@
+
+.notifications {
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notifications h2 {
+  color: #1e4675;
+  margin-top: 0;
+}
+
+.notifications button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notifications button:hover {
+  background-color: #1e4675;
+}
+
+.notifications ul {
+  padding-left: 20px;
+}
+
+.notifications li {
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}

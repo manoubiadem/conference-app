@@ -1,0 +1,12 @@
+
+<section id="amis" class="amis">
+  <h2>Liste des amis</h2>
+
+  <ul>
+    @for (ami of amis(); track ami) {
+      <li>{{ ami }}</li>
+    } @empty {
+      <li>Aucun ami disponible</li>
+    }
+  </ul>
+</section>

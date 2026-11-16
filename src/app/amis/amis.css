@@ -1,0 +1,28 @@
+
+.amis {
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.amis h2 {
+  color: #1e4675;
+  margin-top: 0;
+}
+
+.amis ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.amis li {
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.amis li:last-child {
+  border-bottom: none;
+}

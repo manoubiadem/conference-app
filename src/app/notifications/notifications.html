@@ -1,0 +1,18 @@
+
+<section id="notifications" class="notifications">
+  <h2>Notifications</h2>
+
+  <button (click)="afficherNotifications()">
+    Afficher / Masquer les notifications
+  </button>
+
+  @if (afficher()) {
+    <ul>
+      @for (notification of notifications(); track $index) {
+        <li>{{ notification }}</li>
+      } @empty {
+        <li>Aucune notification disponible</li>
+      }
+    </ul>
+  }
+</section>
